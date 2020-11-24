@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    margin-top: 50px;
+
+    .card {
+        background-color: #511f50;
+        border-radius: 10px;
+        height: 232px;
+        width: 350px;
+
+        .position {
+            margin: 30px;
+
+            .photo {
+                border-radius: 50%;
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+}

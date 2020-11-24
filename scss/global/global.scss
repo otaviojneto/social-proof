@@ -1,0 +1,35 @@
+* {
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none !important;
+    padding: 0;
+}
+
+html {
+    /* move a pag mais devagar */
+    /* scroll-behavior: smooth; */
+    font-family: "Spartan", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+a:active {
+    color: inherit;
+}
+/*# sourceMappingURL=global.css.map */
+
+.rest {
+    padding: 6%;
+}
