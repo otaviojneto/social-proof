@@ -6,16 +6,62 @@
         background-color: #511f50;
         border-radius: 10px;
         height: 232px;
-        width: 350px;
+        padding: 36px;
+        width: 340px;
+        margin-right: 28px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
 
         .position {
-            margin: 30px;
+            align-items: center;
+            display: flex;
+            margin-top: 10px;
 
             .photo {
                 border-radius: 50%;
-                width: 44px;
                 height: 44px;
+                margin-right: 20px;
+                width: 44px;
             }
+
+            .title {
+                color: #fff7ff;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+
+            .caption {
+                color: #a5578e;
+                font-size: 12px;
+            }
+        }
+
+        .txt {
+            color: #f0d6f0;
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 16px;
+            opacity: 0.9;
+        }
+    }
+    .card:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .card:nth-child(3) {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 978px) {
+    .footer {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
         }
     }
 }

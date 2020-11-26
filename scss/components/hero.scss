@@ -12,7 +12,7 @@
         }
 
         .text {
-            color: #8a8589;
+            color: #aea4ae;
             line-height: 20px;
             font-weight: 500;
             max-width: 74%;
@@ -21,34 +21,51 @@
 
     .list {
         align-items: center;
-        background-color: #f7f2f8;
+        background-color: rgb(247, 242, 248);
         border-radius: 5px;
-        color: #70536f;
+        color: rgb(112, 83, 111);
         font-size: 12px;
         font-weight: 700;
+        height: 36px;
         margin-bottom: 10px;
-        padding: 10px 46px 10px 30px;
+        width: 104%;
+        padding-top: 8px;
+        text-align: center;
     }
 
-    .list-1 {
-        align-items: center;
-        background-color: #f7f2f8;
-        border-radius: 5px;
-        color: #70536f;
-        font-size: 12px;
-        font-weight: 700;
-        margin: 0px -40px 10px 40px;
-        padding: 10px 46px 10px 30px;
+    .list:nth-child(2) {
+        margin-left: 56px;
     }
+    .list:nth-child(3) {
+        margin-left: 84px;
+    }
+}
 
-    .list-2 {
-        align-items: center;
-        background-color: #f7f2f8;
-        border-radius: 5px;
-        color: #70536f;
-        font-size: 12px;
-        font-weight: 700;
-        margin: 0px -80px 0px 80px;
-        padding: 10px 46px 10px 30px;
+@media (max-width: 978px) {
+    .hero {
+        flex-direction: column;
+
+        .information {
+            max-width: 100%;
+
+            .title {
+                max-width: 100%;
+            }
+
+            .text {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .list {
+            max-width: 100%;
+        }
+        .list:nth-child(2) {
+            margin-left: 0;
+        }
+        .list:nth-child(3) {
+            margin-left: 0;
+        }
     }
 }
